@@ -46,7 +46,7 @@ const createOrder = async (customer, data) => {
   }
 };
 
-const endpointSecret = "";
+const endpointSecret = process.env.WEBHOOK_SECRET;
 
 
 
