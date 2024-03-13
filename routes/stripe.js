@@ -69,7 +69,7 @@ router.post("/create-checkout-session", async (req, res) => {
   });
 
   // res.redirect(303, session.url);
-  res.json({ url: session.url });
+  res.send({ url: session.url });
 });
 
 // Create order function
